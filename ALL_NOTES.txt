@@ -1,0 +1,64 @@
+//
+/*
+Swift
+*/
+
+
+
+::App::
+Step 1. get recipes that match nutritional goals
+        add ingredients to shopping cart
+Step 2. match items in fridge do determine nutritional goals
+
+
+Users 
+    [User panel]
+        name
+        age
+        location
+
+    [favorited recipes] //stocastic
+        dietary preferences/restrictions
+
+    [Nutritional info]
+        query for fda recommended nutritional values
+        adjustment sliders/knobs
+            calories, fats, sodiums, vitamins, other macros
+
+    [Current ingredients]
+        take a picture of fridge, get ai to detect items, add to "current ingredients" list
+
+
+[Grocery Stores]
+    Front end:
+        Map / Nearby stores
+    Grocery list
+        [dynamically update optimally-priced store as you add items]
+
+        match with my current grocery list*
+
+
+
+
+
+    for each item on grocery list:
+        query within user radius for store prices, hold them in a table
+            prices* (data from grocery store apis or food tracking)
+            nutritional values* (data from database like spoonacular.com)
+
+
+[Recipes]
+    - meal details
+        - [Recipes]
+            - ingredients for that meal
+            - list of instruction
+            - Timers/Tools
+        - [Nutritional Info]
+            - databases of recipes and ingredients
+    - Grocery list
+        - be able to add items from meal details
+            -add all vs add selected
+
+
+
+
